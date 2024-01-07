@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block heading %} Edit story{% endblock %}
+{% block content %}
+<form method="post">
+    <input type="text" name="storyName"
+           placeholder="Story Name"
+           value="{{ request.form['storyName'] }}">
+    </input><br>
+    <label for="content">Story Text</label>
+    <br>
+    <textarea name="storyText">{{ request.form['storyText'] }}</textarea></br>
+    <br>
+    <button type="submit">Submit</button>
+</form>
+{% endblock %}

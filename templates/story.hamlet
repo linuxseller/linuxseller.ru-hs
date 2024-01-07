@@ -1,0 +1,11 @@
+<div class="header">
+    <a href="/">linuxseller.ru</a>:
+        <div class="navbar"><a href=stories>Stories</a>
+
+$maybe Story _ login name text datetime <- story
+    <h1>#{name} by #{login}
+    #{datetime}
+    <a href=/stories>Home</a>
+    <div class="storyText" style="white-space: pre-wrap;">
+        #{text}
+    <a href=stories>/Home</a>

@@ -1,0 +1,76 @@
+body
+    background-color: #303030;
+    color: white;
+    font-size: 150%;
+
+a:link
+    color: #59C0DC;
+
+a:visited
+    color: #ced0ce;
+
+
+textarea 
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  color: #ffffff;
+  background-color: #404040;
+
+
+.header 
+    border-radius: 5px;
+    padding: 5px;
+    text-align: left;
+    background: #b1b6a6;
+    color: #6E44FF;
+    font-size: 5vh;
+
+.navbar 
+    font-size: 3vh;
+    border-radius: 5px;
+    background: #819595;
+    color: #BA274A;
+
+.misc 
+    border-radius: 5px;
+    padding: 5px;
+    background: #6F2DA8;
+
+.misc_item 
+    font-size: 2vh;
+    border-radius: 5px;
+    background: #b1b6a6;
+    color: #6E44FF;
+
+.header a:link
+    color: #6E44FF;
+
+.header a:visited
+    color: #6E44FF;
+
+
+.misc_item a:link 
+    color: #819595;
+
+.misc_item a:visited
+    color: #819595;
+
+
+.storyElem 
+    background: #404040;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 5px;
+
+
+/* STORY */
+
+.storyText     
+    padding: 5px;
+    margin: 5px;
+    background: #404040;
+
