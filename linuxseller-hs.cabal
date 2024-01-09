@@ -16,6 +16,8 @@ executable linuxseller-hs
                     text,
                     sqlite-simple,
                     template-haskell,
-                    data-default
+                    data-default,
+                    clientsession,
+                    containers
     hs-source-dirs:   app
     default-language: Haskell2010

@@ -3,6 +3,7 @@
         <div class="navbar"><a href=stories>Stories</a>
 
 <div class="stories">
+#{show $ fromMaybe "none" $ Map.lookup "login" sess}
     $forall Story id login name _ _ <- stories
         <div class="storyElem"><a href=stories/#{id}>#{name}</a> by #{login}
 

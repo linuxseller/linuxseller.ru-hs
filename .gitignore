@@ -1,2 +1,3 @@
 test.db
 dist-newstyle
+ client_session_key.aes
